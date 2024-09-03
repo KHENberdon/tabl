@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+     border-collapse: collapse;
+     box-shadow: 1px 0px 2px 1px #99b4b4;
+     margin: 36px auto;
+}
+
+table td{
+    border-bottom-color: 10px solid #eee6e6;
+    padding: 12px ;
+    border:solid 2px #8d8b8b
+    
+}
+.sem{
+    font-weight: 600;
+    text-align: center;
+}
+
+.sem-header td{
+    font-weight: 600;
+}
+
+table tr:hover{
+    background-color: rgb(169, 211, 207);
+}
+
+table tr:nth-child(even){
+    background-color: rgb(161, 241, 224);
+}
